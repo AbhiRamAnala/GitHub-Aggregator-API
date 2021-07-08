@@ -4,9 +4,10 @@ An API to fetch details of repositories and determine if it is successfully runn
 
 ## Dependencies
 
-1. requests
-
-How to install: pip3 install PyGithub requests
+1. tkinter library 
+   Install using: Using pip - 'pip install tk'
+3. requests library
+   Install using: Using pip - 'pip install PyGithub requests'
 
 ## Curent status of project (Sample screenshot)
 
