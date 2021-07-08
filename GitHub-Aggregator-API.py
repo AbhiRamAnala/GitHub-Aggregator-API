@@ -1,6 +1,5 @@
 import tkinter as tk
 import requests
-from pprint import pprint
 
 HEIGHT = 500
 WIDTH = 600
