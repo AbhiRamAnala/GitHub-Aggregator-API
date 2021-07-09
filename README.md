@@ -11,4 +11,5 @@ An API to fetch details of repositories and determine if it is successfully runn
 
 ## Curent status of project (Sample screenshot)
 
-![Screenshot 2021-07-08 210509](https://user-images.githubusercontent.com/54582161/124951062-a10d7d80-e030-11eb-8065-45cb737a90dd.jpg)
+![Screenshot 2021-07-09 070300](https://user-images.githubusercontent.com/54582161/125010276-d7281d00-e083-11eb-8387-f58b37bbc839.jpg)
+
