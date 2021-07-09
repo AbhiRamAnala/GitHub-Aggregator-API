@@ -9,7 +9,7 @@ An API to fetch details of repositories and determine if it is successfully runn
 3. requests library
    Install using: Using pip - 'pip install PyGithub requests'
 
-## Curent status of project (Sample screenshots)
+## Current status of the project (Sample screenshots)
 
 ![1](https://user-images.githubusercontent.com/54582161/125011998-0f7d2a80-e087-11eb-8406-f3c877f6e36b.jpg)
 
