@@ -7,16 +7,21 @@ WIDTH = 600
 
 
 def format_response(user_data):
-	try:
-		followers = user_data['followers']
-		following = user_data['following']
-
-		final_str = 'Followers: %s \n Following: %s' % (followers, following)
-	except:
-		final_str = 'There was a problem retrieving that information'
-
-	return final_str
-
+    try:
+        name = user_data['name']
+        usrid = user_data['id']
+        company = user_data['company']
+        login = user_data['login']
+        followers = user_data['followers']
+        following = user_data['following']
+        
+        final_str = 'Name: %s \n id: %s \n Company: %s \n Login: %s \n Followers: %s \n Following: %s' % (name, usrid, company, login, followers, following)
+    except:
+        final_str = 'There was a problem retrieving that information'
+    return final_str
+        
+	
+        
 def get_user_data(userName):
     url = f"https://api.github.com/users/{userName}"
     user_data = requests.get(url).json()
